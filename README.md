@@ -3,7 +3,7 @@ Raspberry-Rogue
 
 A mini-roguelike, created for running on a Raspberry Pi. This roguelike is intended to be a teaching tool, so look for clean and clear code, not uber-optimization and tons of features.
 
-Features:
+### Features:
 
 - A rogue
 - NSEW movement via the keyboard
@@ -12,3 +12,13 @@ Features:
 - Combat
 - A single monster
 - An inventory screen
+
+### Installation
+
+After cloning the repository:
+
+`$ pip install -r requirements.txt`
+
+### Running
+
+`$ python trunk/rogue/rogue.py`
